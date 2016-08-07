@@ -1,0 +1,10 @@
+/**/
+.markItUp {border: 1px solid #e6e6e6; padding: 1px; border-radius: 3px;}
+.markItUpContainer {border: 1px solid #e6e6e6; border-radius: 3px;}
+.markItUpHeader {
+    border-radius: 3px 3px 0 0;
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 1px;}
+.markItUpEditor {border: none; border-top: 1px solid #e6e6e6; border-radius: 0 0 3px 3px;}

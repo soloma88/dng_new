@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>
+        <lang name="default">Fastls</lang>
+        <lang name="russian">Fastls</lang>
+    </name>
+    <author>
+        <lang name="default">Aliona</lang>
+        <lang name="russian">Aliona</lang>
+    </author>
+    <homepage>http://livestreet.tw1.ru/</homepage>
+    <version>1.0.0</version>
+    <requires>
+        <livestreet>1.0.1</livestreet>
+        <plugins>
+        </plugins>
+    </requires>
+    <description>
+        <lang name="default"></lang>
+        <lang name="russian">Оптимизация запросов. </lang>
+    </description>
+</plugin>

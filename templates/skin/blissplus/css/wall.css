@@ -1,0 +1,33 @@
+/* --------------------------------------------
+	СТЕНА
+-------------------------------------------- */
+
+.wall-submit 									{ margin-bottom: 35px; }
+.wall-submit.wall-submit-reply 					{ margin: 0 0 20px 40px; padding: 7px; }
+.wall-submit.wall-submit-reply textarea 		{ height: 28px; *height: 16px; *width: 590px; margin: 0; }
+.wall-submit.wall-submit-reply button 			{ display: none; }
+.wall-submit.wall-submit-reply.active textarea 	{ height: 80px; margin-bottom: 5px; }
+.wall-submit.wall-submit-reply.active button 	{ display: block;  }
+
+.wall-submit p 									{ margin-bottom: 10px; border: 3px double #e6e6e6; border-radius: 2px; }
+.wall-submit p .input-text {border: none;}
+
+.comments.wall  {  }
+.comments.wall,.wall .comment 					{ }
+
+.wall .comment .comment-info	{  }
+.wall .comment .comment-info  li.comment-avatar img 	{  }
+
+.wall .comment .comment-content	{ margin-left: 0px; }
+.wall .comment .comment-actions { margin-left: 0px; }
+
+.comment.wall-comment-reply 					{ min-height: 0; }
+.comment.wall-comment-reply .comment-avatar 	{ width: 30px; height: 30px; }
+
+.wall-more 							{ display: block; background: #f7f7f7; text-align: center; padding: 7px 0; font-size: 11px; margin-bottom: 2px; }
+.wall-more:hover 					{ background: #eee; }
+.wall-more.wall-more-reply 			{ margin-left: 25px; }
+.wall-more.loader 					{ background: #fafafa url(../images/loader.gif) 50% 50% no-repeat; }
+.wall-more.loader .wall-more-inner 	{ visibility: hidden; }
+
+.wall-note h3 { font-size: 15px; margin-bottom: 20px; font-family: Verdana, sans-serif; }

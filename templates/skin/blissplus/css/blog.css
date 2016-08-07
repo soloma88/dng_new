@@ -1,0 +1,50 @@
+/* --------------------------------------------
+	БЛОГ
+-------------------------------------------- */
+
+.blog {  background: #fff; margin-bottom: 20px; border: 1px solid #e6e6e6; border-radius: 5px; padding: 10px 20px 12px;  overflow: hidden; }
+.blog .blog-description { line-height: 1.3em;}
+/* Header */
+.blog .blog-header 			{ position: relative; padding: 7px 0 0 0; border-bottom: 1px solid #e6e6e6; margin-bottom: 18px; }
+.blog .blog-header h2 		{ font-size: 18px; line-height: 1em; font-family: 'Open Sans', sans-serif; text-transform: uppercase;  margin-bottom: 8px; }
+.blog .blog-header h2 i 	{ position: relative; top: 5px; }
+.blog .blog-header .avatar 	{ position: absolute; top: 15px; left: 15px; }
+
+.blog .blog-header .vote-label	{ text-transform: lowercase; text-align: center; font-size: 12px; color: #aaaaaa; }
+
+.blog .blog-header .vote 									{ position: absolute; top: 7px; right: 0px; }
+/*.blog .blog-header .vote .vote-count 						{ padding-left: 25px; display: block; color: #333; }
+.blog .blog-header .vote .vote-up 							{ position: absolute; top: 22px; left: 0; display: none; }
+.blog .blog-header .vote .vote-down 						{ position: absolute; top: 35px; left: 0; display: none; }
+.blog .blog-header .vote:hover .vote-up,
+.blog .blog-header .vote:hover .vote-down,
+.blog .blog-header .vote.voted .vote-up,
+.blog .blog-header .vote.voted .vote-down 					{ display: inline-block; }
+.blog .blog-header .vote.vote-count-positive .vote-count 	{ color: #5055B2; }
+*/
+
+
+/* Content */
+.blog .blog-content { line-height: 2em; font-size: 15px; }
+
+
+/* Footer */
+.blog .blog-footer { padding: 15px; border-bottom: 1px solid #eee;}
+
+
+/* More Button */
+
+.blog-more  {background: url("../images/line.png") repeat-x center; height: 14px; display: block; overflow: hidden; margin-bottom: 4px; position: relative; top: -7px;}
+.blog-more  i{ float: right; }
+.blog-more  a:hover {
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f0f0f0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f0f0f0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f0f0f0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#f0f0f0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f0f0f0 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#f0f0f0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f0f0f0',GradientType=0 ); /* IE6-9 */
+}
+
+.blog-more-content {margin-bottom: 4px;}

@@ -1,0 +1,87 @@
+.topic-mosaic {float: left; overflow: hidden; margin-right: 8px; margin-bottom: 8px; position: relative; width: 254px; }
+.topic-mosaic.big {width: 516px;}
+.topic-mosaic:nth-child(3n) {margin-right: 0}
+
+.topic-mosaic img {vertical-align: top;}
+
+.topic-mosaic  .topic-comment-count {color: #dddddd; z-index: 3; position: relative; background-color: rgba(0, 0, 0, 0.70); font-size: 12px; padding: 0 5px; line-height: 18px; position: absolute; top: 10px; right: 10px;}
+.topic-mosaic  .topic-comment-count:before {position: absolute; content: ""; left: 4px; bottom: -5px; border-top: 5px solid rgba(0, 0, 0, 0.70); border-right: 5px solid transparent;}
+
+.topic-mosaic .title-topic {z-index: 2; position: absolute; bottom: 0; background-color: rgba(0, 0, 0, 0.70); line-height: 16px; border-top: 2px solid #54c0d1; overflow: hidden; max-height: 32px;  letter-spacing: 0.05em;  font-family: 'Open Sans Condensed', sans-serif; padding: 18px 20px;     width: 214px; font-size: 18px;  color: #fff;}
+.topic-mosaic .title-topic a {color: #fff;}
+.topic-mosaic.big .title-topic {width: 476px;}
+
+.topic-mosaic .topic-content {
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.70);
+    width: 214px;
+    position: absolute;
+    height: 238px;
+    bottom: -274px;
+    padding: 20px 20px 16px;
+    font-size: 14px;
+    color: #ffffff;
+    transition: bottom 0.2s ease-in-out; -webkit-transition: bottom 0.2s ease-in-out; }
+
+.topic-mosaic.big .topic-content {width: 476px; }
+/**/
+
+.topic-mosaic .topic-content .title-topic a { color: #fff;}
+
+.topic-mosaic .topic-content .topic-blog {margin-bottom: 9px; display: inline-block; margin-top: 50px;}
+.topic-mosaic .topic-content .mini-text {margin-bottom: 8px; font-size: 15px;}
+.topic-mosaic .topic-content a {color: #b1b1b1}
+.topic-mosaic .topic-content span {color: #aaaaaa; padding-left: 8px;}
+/* hover **
+**********/
+.topic-mosaic:hover .topic-content {bottom: 0;  }
+.topic-mosaic:hover .title-topic {background: none;}
+
+/**/
+.topic-mosaic.no-preview {height: 254px;}
+
+.topic-mosaic.no-preview .topic-content {bottom: 0;  background-color: #666666!important;}
+.topic-mosaic.no-preview .title-topic {background: none;}
+
+
+
+
+
+
+#masonry {margin: 0 -10px;}
+.grid-sizer {width: 350px; margin:0 10px; }
+
+.topic-tile {float: left; margin:0 10px; margin-bottom: 40px; background: #fff; width: 350px;}
+
+/*preview*/
+.topic-tile  .topic-title 				{ font-size: 30px; color: #333333; margin-bottom: 13px; font-family: 'Open Sans Condensed', sans-serif; line-height: 1.1em; }
+.topic-tile .topic-title a 			{ text-decoration: none; color: #333333; display: inline-block;}
+.topic-tile  .topic-title a:hover       { color: #54c0d1;}
+
+.topic-tile .topic-info .topic-blog 	{ margin-left: 50px; color: #333333; margin-right: 12px; display: inline-block; margin-bottom: 12px;}
+.topic-tile .topic-info .topic-blog i {margin-right: 1px;}
+.topic-tile .topic-info .topic-blog:hover       { color: #54c0d1;}
+.topic-tile .topic-info .topic-blog:hover i       { color: #333333; }
+
+.topic-tile .preview {overflow: hidden; position: relative; margin-bottom: 11px;}
+.topic-tile .preview img {vertical-align: top; width: 350px; border-radius: 4px;}
+.topic-tile .preview .topic-blog { display: inline-block; padding: 0 10px; line-height: 31px; font-size: 14px; color: #dddddd; position: absolute; left: 10px; bottom: 10px; -webkit-border-radius: 3px; -moz-border-radius: 3px;  border-radius: 3px; background-color: rgba(0, 0, 0, 0.70);}
+.topic-tile .preview .topic-comment-count {color: #dddddd; background-color: rgba(0, 0, 0, 0.70); font-size: 12px; padding: 0 5px; line-height: 18px; position: absolute; top: 10px; right: 10px;}
+.topic-tile .preview .topic-comment-count:before {position: absolute; content: ""; bottom: -5px; left: 4px; border-top: 5px solid rgba(0, 0, 0, 0.70);
+    border-right: 5px solid transparent;}
+
+.topic-tile .topic-content { font-size: 15px; color: #000000;}
+.topic-tile .topic-content  .mini-text {line-height: normal; margin-bottom: 16px;}
+
+
+
+
+
+.topic-tile .topic-content footer  .topic-info 		{ overflow: hidden;   position: relative; height: 33px; line-height: 33px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background-color: #ebebeb; padding: 0 0 0 9px; font-size: 15px; color: #aaaaaa; }
+.topic-tile .topic-content footer  .topic-info li 	{ float: left; margin-right: 10px; border-right: 1px solid #ddddde; padding-right: 10px; }
+.topic-tile .topic-content footer  .topic-info li:last-child { padding-right: 0; border: none;}
+.topic-tile .topic-content footer  .topic-info li i   { padding-right: 4px;}
+.topic-tile .topic-content footer  .topic-info li a 	{ text-decoration: none; color: #aaaaaa; }
+.topic-tile .topic-content footer .topic-info li a:hover {color: #54c0d1; text-decoration: none;}
+.topic-tile .topic-content footer  .topic-info li.topic-info-share i {padding-right: 0;}
+.topic-tile .topic-content footer  .topic-info li.vote                        {float: right;}

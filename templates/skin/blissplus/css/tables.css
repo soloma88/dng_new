@@ -1,0 +1,92 @@
+/* -------------------------------------------------------------------
+	ТАБЛИЦЫ
+------------------------------------------------------------------- */
+
+.table 					{ width: 100%; margin-bottom: 10px; }
+
+
+.table tr th, .table tr td  {padding:10px;}
+.table tr td {}
+.table tr th:first-child, .table tr td:first-child  { padding-left:0; }
+.table tr th:last-child, .table tr td:last-child  { padding-right:0 }
+
+.table tr th 				{ text-align: left; font-size: 15px; font-weight: normal; }
+.table th a {COLOR: #5a5a5a; border-bottom: 1px dotted #5a5a5a;}
+.table th a:hover {color: #54c0d1; border-color: #54c0d1; }
+
+.table tr.active td 	{ background: #CBF4BC; }
+
+
+.table a.asc, .table a.desc {position: relative; color: #5a5a5a;}
+.table a.asc:after		{ content: " \f0d8"; font-family: 'fontawesome';
+    height: 18px;
+    display: inline-block;
+    background: #FFF;
+    width: 11px;
+}
+.table a.desc:after		{ content: " \f0d7"; font-family: 'fontawesome';
+    height: 18px;
+    display: inline-block;
+    background: #FFF;
+    width: 11px;
+}
+
+.table .cell-name .avatar { margin-right: 10px;}
+
+
+
+/* Table Blogs */
+.table.table-blogs .cell-name           { position: relative; }
+.table.table-blogs .cell-name .avatar 	{ float: left; margin-right: 10px; clear: right; }
+.table.table-blogs .cell-name p		 	{ overflow: hidden; }
+.table.table-blogs .cell-name p.blogname { position: relative; top: -3px; font-family: 'Open Sans Condensed', sans-serif; font-size: 22px; color: #333}
+.table.table-blogs .cell-rating 		{ width: 65px; }
+.table.table-blogs .cell-readers 		{ width: 80px; text-align: center; vertical-align: middle; }
+.table.table-blogs .cell-join 			{ width: 130px; text-align: center; vertical-align: middle; }
+.table.table-blogs .cell-rating 		{ text-align: center; vertical-align: middle; }
+.table.table-blogs .show-blog-info      { position: absolute; padding: 4px; height: 5px; width: 8px; overflow: hidden; top: 15px; left: 79px;}
+.table.table-blogs .show-blog-info i    { border: 4px solid transparent; border-top-color: #cccccc; position: absolute; top: 4px; right: 4px; }
+.table.table-blogs .user-owner          {  }
+
+
+.table.table-blogs .action {position: absolute; bottom: 15px; left: 96px;}
+/* Table Plugins */
+.table.table-plugins .cell-checkbox 	{ width: 20px; padding: 12px 0 10px 10px; }
+.table.table-plugins h3 				{ font-weight: bold; font-size: 17px; line-height: 20px; margin-bottom: 5px; }
+
+/* Table Profile Notes */
+.table.table-profile-notes 					{ border-top: 1px solid #eee; }
+.table.table-profile-notes td 				{ vertical-align: top; }
+.table.table-profile-notes .cell-username 	{ width: 20%; font-weight: bold; }
+.table.table-profile-notes .cell-note 		{ width: 50%; }
+.table.table-profile-notes .cell-date 		{ text-align: right; }
+
+/* Table Profile Info */
+.table.table-profile-info 				{ margin-bottom: 40px; }
+.table.table-profile-info td 			{ vertical-align: top; }
+.table.table-profile-info .cell-label 	{ width: 30%; color: #777; }
+
+/* Table Users */
+.table.table-users .cell-name 			{ position: relative; width: 190px; }
+.table.table-users .cell-name img 		{ float: left; }
+.table.table-users .cell-name .username { position: relative; top: 1px; font-size: 16px; color: #333 }
+.table.table-users tbody .cell-date 	{ width: 115px;color: #aaaaaa  }
+.table.table-users .cell-name p {color: #aaaaaa; font-size: 14px;}
+.table.table-users .cell-skill 			{ width: 45px; text-align: center; font-weight: normal; color: #4590a7; }
+.table.table-users .cell-rating         { width: 65px; text-align: center;}
+
+.table.table-users .action {position: absolute; bottom: 15px; left: 96px;}
+.table.table-users .action li{float: left; margin-right: 5px;}
+.table.table-users .action li a{padding: 0 4px; line-height: 18px;}
+.table.table-users .action li a i {top: 4px;}
+.table.table-users .action li a.followed {background: #54C0D1; border-color: #54C0D1;}
+.table.table-users .action li a.followed i {background-position: -222px -10px; }
+
+
+/* Table Talk */
+.table.table-talk .cell-checkbox 		{ width: 20px; padding: 12px 0 10px 10px; }
+.table.table-talk thead .cell-checkbox 	{ padding: 10px 0 10px 10px; }
+.table.table-talk .cell-favourite 		{ width: 20px; padding: 10px 0; text-align: center; }
+.table.table-talk .cell-recipients 		{ width: 100px; }
+.table.table-talk tbody .cell-date 		{ font-size: 11px; width: 130px; }
+.table.table-talk tbody td				{ vertical-align: top; }

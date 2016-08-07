@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>
+		<lang name="default">BlissPlus</lang>
+	</name>
+	<author>
+		<lang name="default">Guf [Malyshkin Aleksey]</lang>
+	</author>
+	<homepage>http://dev-guf.ru/</homepage>
+	<version>1.0</version>
+	<requires>
+		<livestreet>1.*</livestreet>
+		<plugins>
+			<plugin>mainpreview</plugin>
+		</plugins>
+	</requires>
+	<description>
+		<lang name="russian">Плагин для корректной работы шаблона BlissPlus</lang>
+	</description>
+</plugin>
